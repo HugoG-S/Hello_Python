@@ -1,4 +1,8 @@
+# Variables 
+# Al contrario de Java, utiliza Snake Case para declarar variables. Ejemplo: my_variable (Utilizamos barra baja para separar palabras)
 
+my_variable = "My String Variable"
+print(my_variable)
 
 
 # Con Type vemos el tipo de dato
