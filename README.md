@@ -1,6 +1,6 @@
 [![github-header-banner-2.png](https://i.postimg.cc/vZ6hw35L/github-header-banner-2.png)](https://postimg.cc/VJmnj9Gd)
 
-# 📚 Curso de Python
+# 📚 Curso MoureDev.
 
 Este repositorio contiene todo el código, ejercicios y proyectos que voy desarrollando a lo largo de mi proceso de aprendizaje de **Python**.  
 La idea es documentar mi progreso, practicar conceptos y crear una base de ejemplos a la que pueda volver cuando lo necesite.
