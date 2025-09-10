@@ -67,3 +67,4 @@ print("1".isnumeric())          # isnumeric nos dirá si es un número
 print(language.isnumeric())     # En este caso da false porque no lo es
 print(language.lower())         # Pone todas las letras en minúscula
 print(language.upper().isupper()) # isupper comprueba que está en mayúscula. También vemos como se pueden concatenar funciones.
+print(language.startswith("Py"))  # starswith comprueba con que empieza devolviendo un boolean
