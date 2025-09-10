@@ -9,4 +9,5 @@ en varias lineas
 
 print("Hola Python")
 
-print('Hola Python') # Declaramos una cadena de texto con comilla simple
+# Declaramos una cadena de texto con comilla simple
+print('Hola Python') 
