@@ -39,19 +39,36 @@ print(my_other_list)
 my_other_list.insert(1, "Verde")    # Con insert añadimos un elemento en la posición que se le indique
 print(my_other_list)
 
-my_other_list.remove("Verde")       # remove elimina el elemento que escribas
+my_other_list[1] = "Rojo"           # Modificamos un valor
+
+my_other_list.remove("Rojo")        # remove elimina el elemento que escribas
 print(my_other_list)
 
 my_list.remove(30)                  # En este caso, solo elimina un solo 30
 print(my_list)
 
-my_list.pop()                       # 
+my_pop_element = my_list.pop(2)     # Desapila el elemento de la lista que escribas y lo almacena en la variable que crees
+print(my_pop_element)
 print(my_list)
 
-
-
-
-
-my_list = "Hola Python"
+del my_list[2]                      # Eliminamos el elemento de la lista por indice
 print(my_list)
-print(type(my_list))        #Cuidado con cambiar el tipo de la variable (Tipado dinámico)
+
+my_new_list = my_list.copy()        # Copiamos la referencia
+
+my_list.clear()                     # Eliminamos la lista entera
+print(my_list)
+print(my_new_list)
+
+my_new_list.reverse()               # Invertimos el orden
+print(my_new_list)
+
+my_new_list.sort()                  # Ordenamos la lista según criterio (Por defecto lo ordena de mayor a menor)
+print(my_new_list)
+
+print(my_new_list[1:3])             # Sublistas
+
+
+my_list = "Hola Python"             #Cuidado con cambiar el tipo de la variable (Tipado dinámico)
+print(my_list)
+print(type(my_list))        
