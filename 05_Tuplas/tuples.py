@@ -21,7 +21,7 @@ print(my_tuple.index("Reshi"))          # index nos dice el indice del elemento 
 #my_tuple[1] = 1.80                     # Daría error al intentar modificarlo, puesto que las tuplas son inmutables
 
 
-my_sum_tuple = my_tuple + my_other_tuple # Si podríamos concatenarlas
+my_sum_tuple = my_tuple + my_other_tuple # Podemos concatenarlas
 print(my_sum_tuple)
 
 print(my_sum_tuple[3:6])
