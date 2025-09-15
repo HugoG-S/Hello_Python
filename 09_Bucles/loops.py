@@ -78,3 +78,9 @@ for element in my_dict:
         continue                        # continue continua con la ejecución del programa desde el punto donde esté declarado
 else:
     print("El bucle for para diccionario ha finalizado")    
+
+## For con range
+
+i = 0
+for i in range(100):
+    print(i)
