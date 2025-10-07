@@ -38,7 +38,7 @@ print(sum_ten(5)(1))
 
 ### Built-in Higher Order Functions ###
 
-numbers = [2, 5, 10, 21]
+numbers = [2, 5, 10, 21, 3, 30]
 
 # Map
 
@@ -48,3 +48,20 @@ def multiply_two(number):
 # Como map es una funcion de orden superior, añadimos una función dentro para que multiplique *2 en la lista que le hemos añadido
 print(list(map(multiply_two, numbers)))
 print(list(map(lambda number: number * 2, numbers)))
+
+
+# Filter
+def filter_greater_ten(number):
+    return number > 10
+
+print(list(filter(filter_greater_ten, numbers)))
+print(list(filter(lambda number: number > 10, numbers)))
+
+
+# Reduce 
+from functools import reduce
+
+def sum_two_values(first_value, second_value):
+    return first_value + second_value
+
+print(reduce(sum_two_values, numbers))
