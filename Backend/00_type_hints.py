@@ -15,6 +15,6 @@ my_typed_variable: str = "My Typed String Variable"
 print(my_typed_variable)
 print(type(my_typed_variable))
 
-my_typed_variable = 5
+my_typed_variable: int = 5
 print(my_typed_variable)
 print(type(my_typed_variable))

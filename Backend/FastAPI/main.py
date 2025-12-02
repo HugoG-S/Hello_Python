@@ -13,4 +13,7 @@ async def root():
 async def url():
     return { "url": "https://mouredev.com/python" }
 
-## FastAPI a medidad que vas programando, se va generando documentación en /docs
+## FastAPI a medidad que vas programando, se va generando documentación
+# Documentación con Swagger: http://127.0.0.1:8000/docs
+# Documentación con Redocly: http://127.0.0.1:8000/redoc
+
